@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>Đăng ký đặt vé sự kiện âm nhạc</h1>
+    <label for="name">Họ và tên:</label>
+    <input id="name"
+      type="text"
+      placeholder="Nhập họ và tên..."
+      minlength="3"
+      maxlength="50"
+      required
+    /><br />
+    <label for="ticket">Số lượng vé:</label>
+    <input id="ticket" type="number" step="1" min="1" max="5" /><br />
+    <label for="vip">Mã vé vip (Đã cấp sẵn):</label>
+    <input id="vip" type="text" value="MUSIC-VIP-2026" readonly /><br />
+    <label for="discount">Mã giảm giá nội bộ:</label>
+    <input id="discount" value="NOT-ELIGIBLE" disabled /><br />
+    <input type="submit" value="Xác nhận đặt vé" />
+  </body>
+</html>
