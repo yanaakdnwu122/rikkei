@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>Nộp hồ sơ ứng tuyển</h1>
+   <fieldset>
+      <legend>Thông tin liên hệ</legend>
+      <label for="name">Họ và tên</label>
+      <input id="name" type="text"/><br />
+      <label for="sdt">Số điện thoại</label>
+      <input pattern=“[0][1-9][0-9]{8}” title=“Số ĐT phải bắt đầu bằng 0, chữ số thứ 2 là 1 – 9 và theo sau là 8 số”>
+      
+    </fieldset>
+    <fieldset>
+      <legend>Hồ sơ đính kèm</legend>
+      <label for="hoso">Tải lên CV (Định dạng PDF/Word):</label>
+      <input id="hoso" type="file" 
+                accept=".pdf,.doc,.docx" value="Chọn tệp" /><br />   
+    </fieldset>
+    <button type="submit">Nộp hồ sơ</button>
+  </body>
+</html>
