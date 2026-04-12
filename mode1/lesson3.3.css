@@ -1,0 +1,28 @@
+.faq-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    font-family: sans-serif;
+}
+
+.question {
+    cursor: pointer;
+    color: #2c3e50;
+    margin-top: 20px;
+    user-select: none; 
+}
+
+.answer {
+
+    color: hsl(0, 0%, 80%); 
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+.question:active ~ .answer {
+    color: hsl(15, 100%, 50%);
+    font-weight: bold;
+}
