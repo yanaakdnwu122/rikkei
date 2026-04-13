@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$iconColor: #f43f5e;
+$fontNavLink: "Roboto", sans-serif;
+$hfH: 60px;
+$mw: 1440px;
+header {
+  height: $hfH;
+  background-color: #1f2937;
+
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+
+  div {
+    height: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    width: 1440px;
+
+    .logo_box {
+      cursor: pointer;
+      width: 110px;
+      color: white;
+      font-size: 10px;
+
+      i {
+        color: $iconColor;
+        font-size: 2em;
+      }
+
+      h1 {
+        font-size: 1.8em;
+        span {
+          color: $iconColor;
+        }
+
+        strong {
+          display: none;
+        }
+      }
+    }
+    nav {
+      a {
+        text-decoration: unset;
+        font-family: $fontNavLink;
+        color: #c7cad1;
+
+        &.active {
+          color: #f3f5f5;
+        }
+
+        &:hover {
+          color: #e83d5b;
+        }
+
+        margin: 0 10px;
+        transition: color 0.2s;
+      }
+    }
+
+    button {
+      background-color: $iconColor;
+      color: white;
+      font-family: $fontNavLink;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 14px;
+
+      &:hover {
+        background-color: #e11d48;
+      }
+
+      transition: color 0.2s;
+    }
+  }
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  .carousel_box {
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1130px;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1400px;
+      z-index: 1;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background-color: rgba(black, 0.4);
+    }
+
+    .carousel_box_content_box {
+      width: $mw;
+      position: absolute;
+      top: 0px;
+      right: 50px;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .carousel {
+        width: 700px;
+        color: white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        p {
+          text-align: center;
+          font-size: 20px;
+
+          &:first-child {
+            font-weight: 800;
+            font-size: 60px;
+
+            font-family: $fontNavLink;
+
+            span {
+              color: $iconColor;
+            }
+
+            text-transform: uppercase;
+          }
+
+          &:nth-child(2) {
+            margin: 10px 0;
+          }
+        }
+        button {
+          background-color: $iconColor;
+          color: white;
+          font-family: $fontNavLink;
+          padding: 10px 15px;
+          border-radius: 5px;
+          font-weight: 600;
+          cursor: pointer;
+          font-size: 20px;
+          border: none;
+          width: 300px;
+          padding: 16px 0;
+
+          &:hover {
+            background-color: #e11d48;
+          }
+
+          transition: background-color 0.2s;
+        }
+      }
+    }
+  }
+
+  .container {
+    width: $mw;
+    height: 100%;
+    .carousel_box {
+      width: 100%;
+      height: 700px;
+
+      background-image: url(/hero_fitness_1773061859337.png);
+    }
+  }
+}
+footer {
+  height: $hfH;
+  background-color: #000000;
+  p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #e5e7eb;
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+  }
+}
