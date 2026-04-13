@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+.course-container {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.course-title {
+    color: #333;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.course-title + p {
+    color: #888;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.course-list {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.course-list > li {
+    color: #e67e22; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+.course-list > li::before {
+    content: "■";
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.course-list a {
+    color: #2980b9;
+    text-decoration: underline; 
+}
+
+.course-list ul {
+    list-style: none;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.course-list ul li {
+    color: #555;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.course-list ul li::before {
+    content: "▪";
+    position: absolute;
+    left: -15px;
+}

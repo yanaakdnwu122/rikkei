@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.author-card {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.author-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.author-job {
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.author-desc {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
