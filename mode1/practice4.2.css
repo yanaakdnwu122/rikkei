@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 50px; 
+}
+
+.product-card {
+    background-color: #ffffff;
+    width: 350px;
+    border: 2px solid #3498db; 
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto; 
+}
+
+.product-name {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-desc {
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.product-price {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 18px;
+}
