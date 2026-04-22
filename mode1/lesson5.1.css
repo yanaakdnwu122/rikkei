@@ -1,0 +1,19 @@
+.content {
+  display:flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: aliceblue;
+  align-items: center;
+  
+}
+.link {
+  display: flex;
+  gap:20px;
+  list-style: none;
+  
+}
+.link li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
