@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.section-title {
+    color: #000000;
+}
+
+.text-primary-custom {
+    color: #2b5a9e;
+}
+
+.description-text {
+    font-size: 0.95rem;
+    color: #6c757d !important;
+    text-align: justify;
+}
+
+.content-box {
+    max-width: 950px;
+    margin: 0 auto !important;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Giá Tour - Dark Mode Toggle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lesson7.4.css">
+</head>
+<body class="d-flex flex-column justify-content-center align-items-center min-height-viewport transition-all">
+
+    <div class="pricing-card p-4 rounded-4 shadow-sm text-center border transition-all">
+        <h3 class="fw-bold fs-4 mb-1">Tour Đà Lạt</h3>
+        <p class="text-secondary small mb-4 font-sub">3 Ngày 2 Đêm</p>
+        
+        <h2 class="price-text fw-bold mb-4">
+            2.500.000đ <span class="fs-6 fw-normal text-secondary font-sub">/khách</span>
+        </h2>
+        
+        <ul class="list-unstyled text-secondary small lh-lg mb-4 text-center d-flex flex-column gap-2 font-list">
+            <li>Khách sạn 4 sao trung tâm</li>
+            <li>Xe Limousine đưa đón tận nơi</li>
+            <li>Vé tham quan tất cả các điểm</li>
+        </ul>
+        
+        <button class="btn btn-primary w-100 py-2.5 fw-bold btn-custom">ĐẶT TOUR NGAY</button>
+    </div>
+
+    <button id="themeToggler" class="btn btn-light shadow-sm btn-toggle position-fixed bottom-0 end-0 m-4 px-3 py-2 border">
+        Đổi Giao Diện
+    </button>
+
+    <script>
+        const toggler = document.getElementById('themeToggler');
+        const htmlTag = document.documentElement;
+
+        toggler.addEventListener('click', () => {
+            if (htmlTag.getAttribute('data-bs-theme') === 'light') {
+                htmlTag.setAttribute('data-bs-theme', 'dark');
+            } else {
+                htmlTag.setAttribute('data-bs-theme', 'light');
+            }
+        });
+    </script>
+</body>
+</html>

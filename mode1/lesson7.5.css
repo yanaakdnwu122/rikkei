@@ -1,0 +1,40 @@
+body {
+    background-color: #f8fafc; 
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.section-title {
+    color: #1e293b;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 12px !important; 
+    text-align: left; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: #eff6ff;
+}
+
+.card-heading {
+    letter-spacing: -0.3px;
+}
+
+.service-card p {
+    color: #64748b !important; 
+}
+
+@media (max-width: 575px) {
+    .service-card {
+        padding: 24px !important;
+    }
+}

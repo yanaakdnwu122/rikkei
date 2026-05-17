@@ -1,0 +1,66 @@
+
+body {
+    background-color: #f1f3f5; 
+}
+
+.min-height-viewport {
+    min-height: 100vh;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border-color: #e9ecef !important;
+    width: 100%;
+    max-width: 380px;
+}
+
+.pricing-card h3 {
+    color: #212529;
+}
+
+.price-text {
+    color: #2b6cb0; 
+}
+
+.btn-custom {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+.btn-custom:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.transition-all {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-bs-theme="dark"] body {
+    background-color: #111827;
+}
+
+[data-bs-theme="dark"] .pricing-card {
+    background-color: #1f2937; 
+    border-color: #374151 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-bs-theme="dark"] .pricing-card h3 {
+    color: #f9fafb;
+}
+
+[data-bs-theme="dark"] .font-sub,
+[data-bs-theme="dark"] .font-list li {
+    color: #9ca3af !important; 
+}
+
+[data-bs-theme="dark"] .price-text {
+    color: #60a5fa; 
+}
+
+[data-bs-theme="dark"] .btn-toggle {
+    background-color: #374151;
+    color: #ffffff;
+    border-color: #4b5563;
+}

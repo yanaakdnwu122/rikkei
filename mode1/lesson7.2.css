@@ -1,0 +1,23 @@
+body {
+    background-color: #f1f5f9;
+}
+
+
+.search-tour-box {
+    width: 100%;
+    max-width: 850px;
+}
+
+.btn-search {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+.btn-search:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+input[type="date"] {
+    color: #4b5563;
+}

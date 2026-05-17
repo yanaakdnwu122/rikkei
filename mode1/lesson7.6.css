@@ -1,0 +1,57 @@
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #0b132b; 
+}
+
+.brand-logo {
+    letter-spacing: -0.5px;
+}
+
+.sidebar .nav-link.active {
+    background-color: #3b82f6 !important; 
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:not(.active):hover {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.search-input {
+    max-width: 400px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    border-color: #3b82f6;
+}
+
+.section-title {
+    letter-spacing: -0.3px;
+    color: #1e293b !important;
+}
+
+.stat-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.stat-card h3 {
+    font-size: 1.45rem;
+    letter-spacing: -0.5px;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
