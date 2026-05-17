@@ -1,0 +1,35 @@
+
+.event-card {
+    max-width: 900px;
+    width: 100%;
+    --bs-primary: #8a232b; 
+    --bs-primary-rgb: 138, 35, 43;
+    --bs-btn-hover-bg: #6b1a20;
+    --bs-btn-hover-border-color: #6b1a20;
+    --bs-btn-active-bg: #521318;
+    --bs-secondary: #212529;
+    --bs-secondary-rgb: 33, 37, 41;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+.event-title {
+    color: var(--bs-primary);
+}
+
+.border-top-brand {
+    border-top: 5px solid var(--bs-primary);
+}
+
+.event-meta p {
+    font-size: 0.95rem;
+    color: #2c3e50;
+}
+
+@media (min-width: 768px) {
+    .event-card img {
+        min-height: 380px;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Sách - Bootstrap 5 Tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fdfdfd;
+            padding-top: 50px;
+        }
+        .table-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .table th {
+            font-weight: bold;
+            color: #212529;
+            border-bottom: 2px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="table-wrapper">
+            <h2 class="text-center mb-4 text-secondary">Danh Sách Sách</h2>
+            
+            <table class="table table-striped table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th style="width: 10%">ID</th>
+                        <th style="width: 50%">Tên Sách</th>
+                        <th style="width: 40%">Tác Giả</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1</strong></td>
+                        <td>Hành Trình Về Phương Đông</td>
+                        <td class="text-muted">Baird T. Spalding</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2</strong></td>
+                        <td>Đắc Nhân Tâm</td>
+                        <td class="text-muted">Dale Carnegie</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3</strong></td>
+                        <td>Nhà Giả Kim</td>
+                        <td class="text-muted">Paulo Coelho</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
